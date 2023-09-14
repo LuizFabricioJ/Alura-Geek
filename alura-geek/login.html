@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indices.css"/>
+    <link rel="stylesheet" href="css/buttons-blue.css"/>
+    <link rel="stylesheet" href="css/buttons-red.css"/>
+    <link rel="stylesheet" href="css/buttons-green.css"/>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <link rel="stylesheet" href="css/btn-entrar.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="texto first-text">Alura Geek:</span>
+            <span class="texto sec-text">"Star Wars"</span>    
+        </div>    
+    </header>
+    <nav class="indice">
+        <a class="azul btn" href="index.html" id="btnOrdenarPorPreco" value="menor-preco">
+            <span class="azul1"></span><span class="azul1"></span>
+            <span class="azul1"></span><span class="azul1"></span>
+            PAGINA INICIAL
+        </a>
+        <a class="red btn-prudutos" href="produtos.html" id="btnFiltarProdutos" value="novos-produtos">
+            <span class="red1"></span><span class="red1"></span>
+            <span class="red1"></span><span class="red1"></span>
+            NOVOS PRODUTOS
+        </a>
+        <a class="green btn-login" href="login.html" id="formLogin" value="login">
+            <span class="green1"></span><span class="green1"></span>
+            <span class="green1"></span><span class="green1"></span>
+            LOGIN
+        </a>
+    </nav>
+
+    <div class="container__login">
+        <div class="card">
+          <h1>Entrar</h1>
+  
+          <div id="msgError"></div>
+  
+          <div class="label-float">
+            <input type="text" id="usuario" paceholder="" required />
+            <label id="userLabel" for="usuario">Usuario</label>
+          </div>
+  
+          <div class="label-float">
+            <input type="password" id="senha" paceholder="" required />
+            <label id="senhaLabel" for="senha">Senha</label>
+            <i class="fa-eye" aria-hidden="true"></i>
+          </div>
+          <br>
+          <div class="button__entrar">
+            <button class="button" onclick="entrar()">Entrar</button>
+          </div>
+          <br><br>
+          <p>
+            Não tem uma conta?
+            <a href="cadastro.html">
+              Cadastre-se
+            </a>
+          </p>
+        </div>
+      </div>  
+    <br>
+    <section class="contatos">
+        <ul class="contatos__lista">
+            <li><a href="#">Quem somos nós</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Programa Fidelidade</a></li>
+            <li><a href="#">Nossas Lojas</a></li>
+            <li><a href="#">Quero ser Franquiado</a></li>
+            <li><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="contatos__formula">
+            <h3>Fale Conosco</h3>
+            <form >
+                <label for="nomesobrenome"></label>
+                <input type="text" placeholder="Nome" required class="contato__input">
+                <br>
+                <label for="mensagem"></label>
+                <textarea cols="50" rows="0" id="mensagem" type="text" placeholder="Deixe sua mensagem:" required class="contato__input"></textarea>
+                <br>
+                <input type="submit" value="Enviar Mensagem" class="enviar">
+ 
+            </form> 
+        </div>
+    </section>        
+</body>
+<script src="app/titulo.js"></script>
+<script src="app/login.js"></script>
+<script src="app/sair.js"></script>
+</html>

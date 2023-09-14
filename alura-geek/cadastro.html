@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="css/indices.css"/>
+    <link rel="stylesheet" href="css/buttons-blue.css"/>
+    <link rel="stylesheet" href="css/buttons-red.css"/>
+    <link rel="stylesheet" href="css/buttons-green.css"/>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <title>CADASTRO</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="texto first-text">Alura Geek:</span>
+            <span class="texto sec-text">"Star Wars"</span>    
+        </div>    
+    </header>
+    <nav class="indice">
+        <a class="azul btn" href="index.html" id="btnOrdenarPorPreco" value="menor-preco">
+            <span class="azul1"></span><span class="azul1"></span>
+            <span class="azul1"></span><span class="azul1"></span>
+            PAGINA INICIAL
+        </a>
+        <a class="red btn-prudutos" href="produtos.html" id="btnFiltarProdutos" value="novos-produtos">
+            <span class="red1"></span><span class="red1"></span>
+            <span class="red1"></span><span class="red1"></span>
+            NOVOS PRODUTOS
+        </a>
+        <a class="green btn-login" href="login.html" id="formLogin" value="login">
+            <span class="green1"></span><span class="green1"></span>
+            <span class="green1"></span><span class="green1"></span>
+            LOGIN
+        </a>
+    </nav>
+  </head>
+  <body>
+    <div class="container__cadastro">
+      <div class="card">
+        <h1>Cadastrar</h1>
+
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
+
+        <div class="label-float">
+          <input type="text" id="nome" placeholder=" " required />
+          <label id="labelNome" for="nome">Nome</label>
+        </div>
+
+        <div class="label-float">
+          <input type="text" id="usuario" placeholder=" " required />
+          <label id="labelUsuario" for="usuario">Usuário</label>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="senha" placeholder=" " required />
+          <label id="labelSenha" for="senha">Senha</label>
+          <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="confirmSenha" placeholder=" " required />
+          <label id="labelConfirmSenha" for="confirmSenha"
+            >Confirmar Senha</label
+          >
+          <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="justify-center">
+          <button onclick="cadastrar()">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+    <section class="contatos">
+        <ul class="contatos__lista">
+            <li><a href="#">Quem somos nós</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Programa Fidelidade</a></li>
+            <li><a href="#">Nossas Lojas</a></li>
+            <li><a href="#">Quero ser Franquiado</a></li>
+            <li><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="contatos__formula">
+            <h3>Fale Conosco</h3>
+            <form >
+                <label for="nomesobrenome"></label>
+                <input type="text" placeholder="Nome" required class="contato__input">
+                <br>
+                <label for="mensagem"></label>
+                <textarea cols="50" rows="0" id="mensagem" type="text" placeholder="Deixe sua mensagem:" required class="contato__input"></textarea>
+                <br>
+                <input type="submit" value="Enviar Mensagem" class="enviar">
+ 
+            </form> 
+        </div>
+    </section>        
+  </body>
+  <script src="app/titulo.js"></script>
+  <script src="app/cadastro.js"></script>
+</html>

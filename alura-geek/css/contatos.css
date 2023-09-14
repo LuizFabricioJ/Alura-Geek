@@ -1,0 +1,40 @@
+.contatos {
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contatos__lista li {
+    list-style: none;
+    line-height:40px;   
+}
+.contatos__lista li a{
+    text-decoration: none;
+    color: #507d88;
+}
+h3{
+    font-size: 40px;
+}
+.contato__input {
+    display: block;
+    margin: 0 0 10px;
+    padding: 20px 25px;
+    width: 70%;
+}
+.enviar {
+    background: #00ccff;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    .contatos {
+        display: flex;
+        justify-content: space-around;
+    }
+}

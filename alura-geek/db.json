@@ -1,0 +1,70 @@
+ [
+    {
+        "id": "1",
+        "imagem": "/css/img/02.jpg",
+        "nome": "Boba Feit",
+        "descricao": "BOBA FETT (SALA DO TRONO): Um dos caçadores de recompensas mais temidos da galáxia, Boba Fett foi dado como morto no poço de Sarlacc, mas ele sobreviveu ao monstro para continuar a sua história",
+        "preco": 209.90
+    }, 
+    {
+        "id": "2",
+        "imagem": "/css/img/03.jpg",
+        "nome": "Chewbacca",
+        "descricao": "CHEWBACCA: O leal primeiro oficial e co-piloto Chewbacca sempre esteve ao lado de seu capitão durante os caóticos eventos de uma galáxia em guerra",
+        "preco": 169.90
+        
+    }, 
+    {
+        "id": "3",
+        "imagem": "/css/img/04.jpg",
+        "nome": "Obi-Wan Kenobi",
+        "descricao": "OBI-WAN KENOBI: O lendário Mestre Jedi Obi-Wan Kenobi foi um homem nobre e extremamente hábil com a Força. Ele treinou Anakin Skywalker e serviu como general no exército da República durante as Guerras Clônicas",
+        "preco": 127.90
+        
+    }, 
+    {
+        "id": "4",
+        "imagem": "/css/img/05.jpg",
+        "nome": "Jabba the Hutt",
+        "descricao": "Jabba foi um senhor do crime Hutt e membro do Grande Conselho Hutt",
+        "preco": 159.90
+        
+    }, 
+    {
+        "id": "5",
+        "imagem": "/css/img/06.jpg",
+        "nome": "Luke Skywalker",
+        "descricao": "Luke Skywalker era um jovem camponês de origem humilde em Tatooine, mas acabou tornando-se um dos maiores Jedi da galáxia",
+        "preco": 89.90
+        
+    }, 
+    {
+        "id": "6",
+        "imagem": "/css/img/07.jpg",
+        "nome": "Kit de Coleção",
+        "descricao": "Kit de coleção dos principais personagens do Star Warss",
+        "preco": 489.80
+    }, 
+    {
+        "id": "7",
+        "imagem": "/css/img/08.jpg",
+        "nome": "Mestre Yoda",
+        "descricao": "Yoda é um mestre do combate da Força e do sabre de luz, tendo mais de 900 anos de experiência aprimorando suas habilidades",
+        "preco": 139.90
+        
+    }, 
+    {
+        "id": "8",
+        "imagem": "/css/img/09.jpg",
+        "nome": "Stormtroopers",
+        "descricao": "Um soldado do exército do Império, o exército mais temido de toda galáxia",
+        "preco": 99.90  
+    }, 
+    {
+        "id": "9",
+        "imagem": "/css/img/10.jpg",
+        "nome": "Chanceller",
+        "descricao": "Ele manipulou o sistema político até se tornar o chanceler supremo e, em seguida, imperador, domindando a galáxia com um reino de terror",
+        "preco": 279.90
+    } 
+]

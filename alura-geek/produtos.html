@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indices.css">
+    <link rel="stylesheet" href="css/buttons-blue.css">
+    <link rel="stylesheet" href="css/buttons-red.css">
+    <link rel="stylesheet" href="css/buttons-green.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/contatos.css">
+    <title>CADASTRO DE NOVOS PRODUTOS</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span class="texto first-text">Alura Geek:</span>
+            <span class="texto sec-text">"Star Wars"</span>    
+        </div>    
+    </header>
+    <nav class="indice">
+        <a class="azul btn-inicial" href="index.html" id="btnOrdenarPorPreco" value="menor-preco">
+            <span class="azul1"></span><span class="azul1"></span>
+            <span class="azul1"></span><span class="azul1"></span>
+            PAGINA INICIAL
+        </a>
+        <a class="red btn-prudutos" href="produtos.html" id="btnFiltarProdutos" value="novos-produtos">
+            <span class="red1"></span><span class="red1"></span>
+            <span class="red1"></span><span class="red1"></span>
+            NOVOS PRODUTOS
+        </a>
+        <a class="green btn-login" href="login.html" id="formLogin" value="login">
+            <span class="green1"></span><span class="green1"></span>
+            <span class="green1"></span><span class="green1"></span>
+            LOGIN
+        </a>
+    </nav>
+    <br>
+    <br>
+
+    <h1>NOVOS PRODUTOS</h1>
+    <main class="produtos" data-formulario>
+        <div class="novos__produtos">
+            <input name="nome" class="ps" type="text" required placeholder="Digite o id do arquivo:" data-id>
+            <span class="mensagem-erro"> </span>
+
+            <input class="ps" type="file" required data-imagem>
+            <span class="mensagem-erro"> </span>
+
+            <input name="nome" class="ps" type="text" required placeholder="Digite o nome do arquivo:" data-nome>
+            <span class="mensagem-erro"> </span>
+    
+            <input name="descricao"class="ps" type="text" required placeholder="Digite a descrição:" data-descricao>
+            <span class="mensagem-erro"> </span>
+
+            <input name="preco" class="ps" type="text" required placeholder="Digite o preço:" data-preco>
+            <span class="mensagem-erro"> </span>
+
+            <div class="button">
+            <input type="submit" class="btn" id="enviar" >
+            </div>
+        </div>
+    </main>    
+    <section class="contatos">
+        <ul class="contatos__lista">
+            <li><a href="#">Quem somos nós</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Programa Fidelidade</a></li>
+            <li><a href="#">Nossas Lojas</a></li>
+            <li><a href="#">Quero ser Franquiado</a></li>
+            <li><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="contatos__formula">
+            <h3>Fale Conosco</h3>
+            <form >
+                <label for="nomesobrenome"></label>
+                <input type="text" id="nome" placeholder="Nome" required class="contato__input">
+                
+                <br>
+                <label for="mensagem"></label>
+                <textarea cols="50" rows="0" id="mensagem" type="text" placeholder="Deixe sua mensagem:" required class="contato__input"></textarea>
+                <br>
+                <input type="submit" value="Enviar Mensagem" class="enviar">
+ 
+            </form> 
+        </div>
+    </section>
+</body>
+<script src="app/titulo.js"></script>
+<script src="app/criarProdutos.js"></script>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/itens.css"/>
+    <link rel="stylesheet" href="css/indices.css"/>
+    <link rel="stylesheet" href="css/buttons-blue.css"/>
+    <link rel="stylesheet" href="css/buttons-red.css"/>
+    <link rel="stylesheet" href="css/buttons-green.css"/>
+    <link rel="stylesheet" href="css/contatos.css"/>
+    <title>E-Commer</title>
+</head>
+<header>
+    <div class="container">
+        <span class="texto first-text">Alura Geek:</span>
+        <span class="texto sec-text">"Star Wars"</span>    
+    </div>    
+
+   </header>
+<nav class="indice">
+    <a class="azul btn-inicial" href="index.html" id="btnOrdenarPorPreco" value="menor-preco">
+        <span class="azul1"></span><span class="azul1"></span>
+        <span class="azul1"></span><span class="azul1"></span>
+        PAGINA INICIAL
+    </a>
+    <a class="red btn-prudutos" href="produtos.html" id="btnFiltarProdutos" value="novos-produtos">
+        <span class="red1"></span><span class="red1"></span>
+        <span class="red1"></span><span class="red1"></span>
+        NOVOS PRODUTOS
+    </a>
+    <a class="green btn-login" href="login.html" id="formLogin" value="login">
+        <span class="green1"></span><span class="green1"></span>
+        <span class="green1"></span><span class="green1"></span>
+        LOGIN
+    </a>
+</nav>
+<body>
+
+    <main class="principal" >
+        <div class="principal__cabecalho">
+          <h1 class="pricipal__titulo" data-titulo>Todos os produtos</h1>
+        </div>
+    </main>
+    
+    <section class="lista__bonecos" id="lista">
+        <div class="bonecos" id="item1">
+            <img class="bonecos__imagens" src="img/02.jpg" alt="Caixa do Boba Fett"/>
+            <h2 class="titulo__boneco">BOBA FETT</h2>
+            <p class="descricao">BOBA FETT (SALA DO TRONO): Um dos caçadores de recompensas mais temidos 
+                da galáxia, Boba Fett foi dado como morto no poço de Sarlacc, mas ele 
+                sobreviveu ao monstro para continuar a sua história</p>
+            <p class="preco__boneco" id="preco">R$209,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/03.jpg" alt="Caixa do Chewbacca"/>
+            <h2 class="titulo__boneco">CHEWBACCA</h2>
+            <p class="descricao">CHEWBACCA: O leal primeiro oficial e co-piloto Chewbacca sempre esteve 
+                ao lado de seu capitão durante os caóticos eventos de uma galáxia em guerra</p>
+            <p class="preco__boneco" id="preco">R$169,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/04.jpg" alt="Caixa do Obi-Wan Kenobi"/>
+            <h2 class="titulo__boneco">OBI-WAN KENOBI</h2>
+            <p class="descricao">OBI-WAN KENOBI: O lendário Mestre Jedi Obi-Wan Kenobi foi um homem 
+                nobre e extremamente hábil com a Força. Ele treinou Anakin Skywalker e serviu 
+                como general no exército da República durante as Guerras Clônicas</p>
+            <p class="preco__boneco" id="preco">R$127,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/05.jpg" alt="Caixa do Jabba The Hutt"/>
+            <h2 class="titulo__boneco">JABBA THE HUTT</h2>
+            <p class="descricao">Jabba foi um senhor do crime Hutt e membro do Grande Conselho Hutt</p>
+            <p class="preco__boneco" id="preco">R$159,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/06.jpg" alt="Caixa do Luke Skywalker"/>
+            <h2 class="titulo__boneco">LUKE SKYWALKER</h2>
+            <p class="descricao">Luke Skywalker era um jovem camponês de origem humilde em Tatooine, mas acabou 
+                tornando-se um dos maiores Jedi da galáxia</p>
+            <p class="preco__boneco" id="preco">R$89,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/07.jpg" alt="Caixa kit de coleção"/>
+            <h2 class="titulo__boneco">KIT DE COLEÇÃO</h2>
+            <p class="descricao">Kit de coleção dos principais personagens do Star Wars</p>
+            <p class="preco__boneco" id="preco">R$489,80</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/08.jpg" alt="Caixa do Mestre Yoda"/>
+            <h2 class="titulo__boneco">MESTRE YODA</h2>
+            <p class="descricao">Yoda é um mestre do combate da Força e do sabre de luz, tendo mais 
+                de 900 anos de experiência aprimorando suas habilidades</p>
+            <p class="preco__boneco" id="preco">R$139,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/09.jpg" alt="Caixa do Stormtroopers"/>
+            <h2 class="titulo__boneco">STORMTROOPERS</h2>
+            <p class="descricao">Um soldado do exército do Império, o exército mais temido de toda galáxia</p>
+            <p class="preco__boneco" id="preco">R$99,90</p>
+        </div>
+
+        <div class="bonecos">
+            <img class="bonecos__imagens" src="img/10.jpg" alt="Caixa do Chanceller"/>
+            <h2 class="titulo__boneco">CHANCELLER </h2>
+            <p class="descricao">Ele manipulou o sistema político até se tornar o chanceler supremo e, em 
+                seguida, imperador, domindando a galáxia com um reino de terror</p>
+            <p class="preco__boneco" id="preco">R$279,90</p>
+        </div>
+    </section>  
+
+    
+
+    <section class="contatos">
+        <ul class="contatos__lista">
+            <li><a href="#">Quem somos nós</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Programa Fidelidade</a></li>
+            <li><a href="#">Nossas Lojas</a></li>
+            <li><a href="#">Quero ser Franquiado</a></li>
+            <li><a href="#">Anuncie aqui</a></li>
+        </ul>
+
+        <div class="contatos__formula">
+            <h3>Fale Conosco</h3>
+            <form class="forms" onsubmit="return validateForm()">
+                <div class="input-nome">
+                    <input class="contato__input" name="name" placeholder="Nome" required>
+                </div>
+                <br>
+                <div class="textarea-mensagem">
+                <label for="mensagem"></label>
+                <textarea class="contato__input" name="mensagem" placeholder="Deixe sua mensagem:" required></textarea>
+                </div>
+                <br>
+                <span id="error-msg" style="display: none; color: #ffffff;"></span>
+                <span id="success-msg" style="display: none; color: #ffffff;"></span>
+                <button type="submit" class="enviar">Enviar Mensagem</button>
+            </form> 
+        </div>
+    </section>
+    <footer class="final">
+        Desenvolvido por Luiz Fabricio de Souza Junior
+    </footer>     
+</body>
+<script src="app/titulo.js"></script>
+<script src="app/mostraProdutos.js"></script>
+</html>
